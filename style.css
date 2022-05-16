@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header styling begins here */
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color:whitesmoke;
+  border-style: solid;
+    border-width: 1px;
+    border-color: mediumaquamarine;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:honeydew
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color:black;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* header styling ends here */
+
+.container {
+    display: flexbox; 
+    
+}
+
+.img-profile {
+    width: 800px;
+    position:relative;
+    top: 85px;
+    padding-right: 300px;
+    margin-left: 420px;
+    
+}
+
+.img-run {
+    width: 500px;
+    height: 247px;
+    margin-bottom: 80px;
+    position: relative;
+    margin-bottom: 9px;
+    
+}
+
+.img-stopwatch {
+    width: 490px;
+    position:relative
+}
+
+.img-clock {
+    width: 500px;
+    position:relative
+}
+
+.img-waitlist {
+    width: 510px;
+    position:relative;height: 30%;
+    right: 7px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* body placement and styling begins here */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.About-Me {
+    margin-bottom: 100px;
+    margin-top: 75px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Work h2,
+.Contact h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* body placement and styling ends here */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 10px;
+    font-family: cursive;
+}
